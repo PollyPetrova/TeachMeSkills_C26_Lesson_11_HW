@@ -7,7 +7,8 @@ public class Utils {
 
         for (int i = 0; i < str.length(); i++) {
             char letter=str.charAt(i);
-            result.append(letter).append(letter);
+            result.append(letter);
+            result.append(letter);
         }
         System.out.println(result);
     }
